@@ -1,3 +1,4 @@
+/*Exo 1*/
 header {
     background-image: url("../images/header.jpg");
     background-size : cover;
@@ -9,6 +10,34 @@ header {
 
 }
 
+/*Exo 2*/
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color: black;
+}
+
 #search{
     margin: 5px;
     padding: 10px; /* élargis la marge intérieur de l'input search */
@@ -18,7 +47,7 @@ header {
     outline: none; /* permet de ne pas afficher le contour de sélection bleuté */
     background: url("../images/loupe.png") no-repeat right;
     float: right;
-
+    background-color: white;
 }
 
 #button{
