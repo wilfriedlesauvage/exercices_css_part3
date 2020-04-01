@@ -5,6 +5,12 @@ img{
     height: auto;
 }
 
+.bannerTitle{
+    display: inline-block;
+    position: relative;
+}
+
 body{
     margin: 0px;
 }
+
