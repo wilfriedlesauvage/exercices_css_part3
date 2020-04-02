@@ -1,3 +1,7 @@
+body{
+    background-color: #d9e9f5;
+
+}
 /*Exo 1*/
 header {
     background-image: url("../images/header.jpg");
@@ -66,4 +70,24 @@ li a:hover{
     font-size: 25px;
     text-align: justify;
     background-color: #d9e9f5;
+}
+
+#blockline{
+    display: flex;
+}
+
+article{
+    margin: 15px 10px;
+    text-align: center;
+    background-color: #d9e9f5;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    padding-top: 10px;
+}
+
+article p{
+    text-align: justify;
 }
