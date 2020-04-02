@@ -59,13 +59,11 @@ li a:hover{
     float: right;
 }
 
-.presentation p{
+
+#presentation{
+    margin: 70px;
+    padding: 20px;
     font-size: 25px;
     text-align: justify;
-    padding: 15px;
     background-color: #d9e9f5;
-}
-
-.presentation{
-    margin: 70px;
 }
