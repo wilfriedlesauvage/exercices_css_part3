@@ -58,3 +58,12 @@ li a:hover{
     border-radius: 40px;
     float: right;
 }
+
+
+#presentation{
+    margin: 70px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+    background-color: #d9e9f5;
+}
